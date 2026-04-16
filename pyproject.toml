@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 pynacl = "^1.6.2"
 uni-curses = "^3.1.2"
+websockets = "^16.0"
 
 
 [build-system]
