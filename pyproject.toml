@@ -8,7 +8,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+libp2p = "^0.8.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.1.1"
+pytest-cov = "^7.1.0"
+pytest-mock = "^3.17.0"
+pytest-trio = "^0.8.0"
+pytest-timeout = "^2.4.0"
+pytest-randomly = "^5.0.0"
+ruff = "^0.17.1"
+mypy = "^2.4.0"
 
 [build-system]
 requires = ["poetry-core"]

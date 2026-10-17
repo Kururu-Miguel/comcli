@@ -1,0 +1,59 @@
+# ===== python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+sdist/
+wheels/
+
+# ===== Poetry / ambientes virtuais =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== Testes e cobertura =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ===== Ferramentas de qualidade =====
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+
+# ===== Segredos e chaves =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.p12
+*.pfx
+
+# ===== Banco de dados local =====
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ===== IDEs e editores =====
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
