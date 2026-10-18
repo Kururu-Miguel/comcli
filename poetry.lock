@@ -635,6 +635,17 @@ files = [
 ]
 
 [[package]]
+name = "click"
+version = "8.5.0"
+description = "Composable command line interface toolkit"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "click-8.5.0-py3-none-any.whl", hash = "sha256:255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"},
+    {file = "click-8.5.0.tar.gz", hash = "sha256:ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"},
+]
+
+[[package]]
 name = "coincurve"
 version = "21.0.0"
 description = "Safest and fastest Python library for secp256k1 elliptic curve operations"
@@ -2658,4 +2669,4 @@ type = ["pytest-mypy (>=1.0.1)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "396b52937dcbbe1044c47c8452bbb2a664de6666c41c3028185a0fdfd2b38cfe"
+content-hash = "c164153e3b4c06022535a109549c07c36aac6ecf021f026556bf088467ba12d7"
